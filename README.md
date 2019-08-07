@@ -7,6 +7,8 @@
 [Adafruit](https://www.adafruit.com/)
 
 ## Raspberry documentation:
+Getting [started](https://projects.raspberrypi.org/en/pathways/getting-started-with-raspberry-pi) with Raspberry Pi
+
 Official [documentation](https://www.raspberrypi.org/documentation/)
 
 [Os](https://www.raspberrypi.org/downloads/) for raspberry
