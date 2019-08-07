@@ -12,3 +12,5 @@ Getting [started](https://projects.raspberrypi.org/en/pathways/getting-started-w
 Official [documentation](https://www.raspberrypi.org/documentation/)
 
 [Os](https://www.raspberrypi.org/downloads/) for raspberry
+
+For more details on the advanced capabilities of the [GPIO pins](https://pinout.xyz/) see gadgetoid's interactive pinout diagram.
