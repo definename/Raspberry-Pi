@@ -5,3 +5,6 @@
 Raspberry shop:
 
 [Adafruit](https://www.adafruit.com/)
+
+Raspberry documentation:
+[Official documentation](https://www.raspberrypi.org/documentation/)
