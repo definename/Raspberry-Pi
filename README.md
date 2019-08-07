@@ -4,4 +4,4 @@
 
 Raspberry shop:
 
-[https://www.adafruit.com/](Adafruit)
+[Adafruit](https://www.adafruit.com/)
