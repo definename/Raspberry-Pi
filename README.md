@@ -17,7 +17,7 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 `sudo raspi-config` ssh, user passwd etc.
 
-## RPi_Serial_Connection
+## RPI serial connection
 
 [HowTo](https://elinux.org/RPi_Serial_Connection)
 
