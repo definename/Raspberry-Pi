@@ -17,6 +17,10 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 `sudo raspi-config` ssh, user passwd etc.
 
+## RPi_Serial_Connection
+
+[HowTo](https://elinux.org/RPi_Serial_Connection)
+
 ## RPI3b+ uart garbage issue:
 
 [Uart1](https://raspberrypi.stackexchange.com/questions/43788/pi-3-boot-with-uart-console)
