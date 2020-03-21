@@ -27,7 +27,7 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 ## Error garbage on UART console:
 
-[UART garbage1](https://raspberrypi.stackexchange.com/questions/43788/pi-3-boot-with-uart-console)
+[UART garbage1](https://openenergymonitor.org/forum-archive/node/12311.html)
 
 [UART garbage2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
