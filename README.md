@@ -15,11 +15,7 @@ Official [documentation](https://www.raspberrypi.org/documentation/)
 
 For more details on the advanced capabilities of the [GPIO pins](https://pinout.xyz/) see gadgetoid's interactive pinout diagram.
 
-`sudo raspi-config` ssh, user passwd etc.
-
-## RPI serial connection
-
-
+`sudo raspi-config` - interface to control ssh, user passwd etc. 
 
 ## RPI 3B+ UART:
 
