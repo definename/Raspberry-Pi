@@ -19,10 +19,16 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 ## RPI serial connection
 
+
+
+## RPI 3B+ UART:
+
 [HowTo](https://elinux.org/RPi_Serial_Connection)
 
-## RPI3b+ uart garbage issue:
+## Error garbage on UART console:
 
-[Uart1](https://raspberrypi.stackexchange.com/questions/43788/pi-3-boot-with-uart-console)
+[UART garbage1](https://raspberrypi.stackexchange.com/questions/43788/pi-3-boot-with-uart-console)
 
-[Uart2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
+[UART garbage2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
+
+## Error not able to type on UART console
