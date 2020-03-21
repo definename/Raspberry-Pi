@@ -39,3 +39,5 @@ dtoverlay=pi3-miniuart-bt
 [Cosole garbage2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
 ## Error not able to type on UART console
+
+Try to use non usb power supply
