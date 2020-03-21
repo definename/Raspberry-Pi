@@ -27,8 +27,15 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 ## Error garbage on UART console:
 
-[UART garbage1](https://openenergymonitor.org/forum-archive/node/12311.html)
+To the end of file: /boot/config.txt add:
+```
+dtoverlay=pi3-disable-bt
+dtoverlay=pi3-miniuart-bt
+```
+Reboot
 
-[UART garbage2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
+[Garbage1](https://openenergymonitor.org/forum-archive/node/12311.html)
+
+[Garbage2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
 ## Error not able to type on UART console
