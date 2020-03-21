@@ -30,9 +30,9 @@ dtoverlay=pi3-miniuart-bt
 ```
 - Reboot target
 
-[Cosole garbage1](https://openenergymonitor.org/forum-archive/node/12311.html)
+[Info1](https://openenergymonitor.org/forum-archive/node/12311.html)
 
-[Cosole garbage2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
+[Info2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
 ## Error not able to type on UART console
 
