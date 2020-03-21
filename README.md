@@ -27,12 +27,12 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 ## Error garbage on UART console:
 
-To the end of file: /boot/config.txt add:
+- To the end of file: /boot/config.txt add:
 ```
 dtoverlay=pi3-disable-bt
 dtoverlay=pi3-miniuart-bt
 ```
-Reboot
+- Reboot target
 
 [Garbage1](https://openenergymonitor.org/forum-archive/node/12311.html)
 
