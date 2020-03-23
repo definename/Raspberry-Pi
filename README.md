@@ -38,6 +38,6 @@ dtoverlay=pi3-miniuart-bt
 
 Try to use non usb power supply
 
-# Linux kernel:
+# Linux kernel
 
 [kernelnewbies](https://kernelnewbies.org/)
