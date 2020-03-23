@@ -37,3 +37,7 @@ dtoverlay=pi3-miniuart-bt
 ## Error not able to type on UART console
 
 Try to use non usb power supply
+
+# Linux kernel:
+
+[kernelnewbies](https://kernelnewbies.org/)
