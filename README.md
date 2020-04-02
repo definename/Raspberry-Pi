@@ -46,10 +46,12 @@ Try to use non usb power supply
 
 clone (yocto)[https://www.yoctoproject.org/software-overview/downloads/]
 build `bitbake core-image-minimal`
+
 add (meta-raspberry)[http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/] layer
+
 modify build/config/local.conf:
-  set machine type: `MACHINE = "raspberrypi3"`
-  add `rpi-sdimg` support with: `IMAGE_FSTYPES="tar.bz2 ext3 rpi-sdimg"`
+  - set machine type: `MACHINE = "raspberrypi3"`
+  - add `rpi-sdimg` support with: `IMAGE_FSTYPES="tar.bz2 ext3 rpi-sdimg"`
 build `bitbake core-image-base`
 flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M conv=fsync`
 enable uart:
