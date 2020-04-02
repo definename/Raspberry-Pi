@@ -21,13 +21,13 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 `sudo raspi-config` - interface to control ssh, user passwd etc. 
 
-## Raspbian:
+## Raspbian uart:
 
 [HowTo](https://elinux.org/RPi_Serial_Connection)
 
 # Error
 
-_Garbage on UART console_:
+Garbage on UART console:
 
 - To the end of file: /boot/config.txt add:
 ```
@@ -40,7 +40,7 @@ dtoverlay=pi3-miniuart-bt
 
 [Info2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
-Unbale to type on UART console:
+Unable to type on UART console:
 
 - Try to use non usb power supply
 
