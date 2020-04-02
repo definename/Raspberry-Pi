@@ -44,10 +44,10 @@ Try to use non usb power supply
 
 # Yocto (zeus 3.0.2):
 
-clone (yocto)[https://www.yoctoproject.org/software-overview/downloads/]
+clone [https://www.yoctoproject.org/software-overview/downloads/](yocto)
 build `bitbake core-image-minimal`
 
-add (meta-raspberry)[http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/] layer
+add [http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/](meta-raspberry) layer
 
 modify build/conf/local.conf:
  - set machine type: `MACHINE = "raspberrypi3"`
