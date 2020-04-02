@@ -50,10 +50,10 @@ build `bitbake core-image-minimal`
 add (meta-raspberry)[http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/] layer
 
 modify build/config/local.conf:
-  - set machine type: `MACHINE = "raspberrypi3"`
-  - add `rpi-sdimg` support with: `IMAGE_FSTYPES="tar.bz2 ext3 rpi-sdimg"`
+ - set machine type: `MACHINE = "raspberrypi3"`
+ - add `rpi-sdimg` support with: `IMAGE_FSTYPES="tar.bz2 ext3 rpi-sdimg"`
 build `bitbake core-image-base`
 flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M conv=fsync`
 enable uart:
-  add to config.txt: `enable_uart=1`
-  add to cmdline.txt: `console=serial0,115200 console=tty1`
+ - add to config.txt: `enable_uart=1`
+ - add to cmdline.txt: `console=serial0,115200 console=tty1`
