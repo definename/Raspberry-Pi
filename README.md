@@ -6,6 +6,10 @@
 
 [Adafruit](https://www.adafruit.com/)
 
+## Linux kernel
+
+[kernelnewbies](https://kernelnewbies.org/)
+
 ## Raspberry documentation:
 Getting [started](https://projects.raspberrypi.org/en/pathways/getting-started-with-raspberry-pi) with Raspberry Pi
 
@@ -17,12 +21,13 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 `sudo raspi-config` - interface to control ssh, user passwd etc. 
 
-## RPI 3B+ UART (Raspbian):
+## Raspbian:
 
 [HowTo](https://elinux.org/RPi_Serial_Connection)
 
 # Error
-garbage on UART console:
+
+Garbage on UART console:
 
 - To the end of file: /boot/config.txt add:
 ```
@@ -38,10 +43,6 @@ dtoverlay=pi3-miniuart-bt
 Unbale to type on UART console:
 
 - Try to use non usb power supply
-
-# Linux kernel
-
-[kernelnewbies](https://kernelnewbies.org/)
 
 # Yocto (zeus 3.0.2):
 
