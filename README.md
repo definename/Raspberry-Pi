@@ -21,7 +21,7 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 `sudo raspi-config` - interface to control ssh, user passwd etc. 
 
-## Raspbian [uart](https://elinux.org/RPi_Serial_Connection):
+# Raspbian [uart](https://elinux.org/RPi_Serial_Connection):
 
 Garbage on UART console:
 
