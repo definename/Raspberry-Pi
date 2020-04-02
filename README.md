@@ -21,7 +21,8 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 [HowTo](https://elinux.org/RPi_Serial_Connection)
 
-## Error garbage on UART console:
+# Error
+garbage on UART console:
 
 - To the end of file: /boot/config.txt add:
 ```
@@ -34,9 +35,9 @@ dtoverlay=pi3-miniuart-bt
 
 [Info2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
-## Error not able to type on UART console
+Unbale to type on UART console:
 
-Try to use non usb power supply
+- Try to use non usb power supply
 
 # Linux kernel
 
