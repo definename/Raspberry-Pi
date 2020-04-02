@@ -28,7 +28,7 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 dtoverlay=pi3-disable-bt
 dtoverlay=pi3-miniuart-bt
 ```
-- Reboot target
+- restart
 
 [Info1](https://openenergymonitor.org/forum-archive/node/12311.html)
 
@@ -41,3 +41,17 @@ Try to use non usb power supply
 # Linux kernel
 
 [kernelnewbies](https://kernelnewbies.org/)
+
+# Yocto (zeus 3.0.2):
+
+clone (yocto)[https://www.yoctoproject.org/software-overview/downloads/]
+build `bitbake core-image-minimal`
+add (meta-raspberry)[http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/] layer
+modify build/config/local.conf:
+  set machine type: `MACHINE = "raspberrypi3"`
+  add `rpi-sdimg` support with: `IMAGE_FSTYPES="tar.bz2 ext3 rpi-sdimg"`
+build `bitbake core-image-base`
+flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M conv=fsync`
+enable uart:
+  add to config.txt: `enable_uart=1`
+  add to cmdline.txt: `console=serial0,115200 console=tty1`
