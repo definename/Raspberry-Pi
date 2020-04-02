@@ -49,7 +49,7 @@ build `bitbake core-image-minimal`
 
 add (meta-raspberry)[http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/] layer
 
-modify build/config/local.conf:
+modify build/conf/local.conf:
  - set machine type: `MACHINE = "raspberrypi3"`
  - add `rpi-sdimg` support with: `IMAGE_FSTYPES="tar.bz2 ext3 rpi-sdimg"`
  
