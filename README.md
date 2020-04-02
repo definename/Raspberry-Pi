@@ -42,6 +42,9 @@ Unable to type on UART console:
 
 # Yocto (zeus 3.0.2):
 
+[yocto](https://www.yoctoproject.org/)
+[meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index.html)
+
 clone [https://www.yoctoproject.org/software-overview/downloads/](yocto)
 build `bitbake core-image-minimal`
 
