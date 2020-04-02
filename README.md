@@ -27,7 +27,7 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 # Error
 
-Garbage on UART console:
+_Garbage on UART console_:
 
 - To the end of file: /boot/config.txt add:
 ```
