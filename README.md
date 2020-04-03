@@ -47,10 +47,10 @@ Unable to type on UART console:
 - [yocto](https://www.yoctoproject.org/)
 - [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index.html)
 
-clone [https://www.yoctoproject.org/software-overview/downloads/](yocto)
+clone [yocto](https://www.yoctoproject.org/software-overview/downloads/)
 build `bitbake core-image-minimal`
 
-add [http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/](meta-raspberry) layer
+add [meta-raspberry](http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/) layer
 
 modify build/conf/local.conf:
  - set machine type: `MACHINE = "raspberrypi3"`
