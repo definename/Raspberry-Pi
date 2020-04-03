@@ -48,6 +48,7 @@ Unable to type on UART console:
 - [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index.html)
 
 clone [yocto](https://www.yoctoproject.org/software-overview/downloads/)
+
 build `bitbake core-image-minimal`
 
 add [meta-raspberry](http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/) layer
