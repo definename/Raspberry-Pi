@@ -75,3 +75,12 @@ uart:
 ```
 ENABLE_UART = "1"
 ```
+
+uart manually:
+> add to config.txt: `enable_uart=1`
+> add to cmdline.txt: `console=serial0,115200 console=tty1`
+
+vim:
+```
+IMAGE_INSTALL_append = " vim"
+```
