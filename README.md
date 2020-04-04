@@ -61,7 +61,6 @@ build `bitbake core-image-base`
 
 flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M conv=fsync`
 
----
 i2c:
 ```
 ENABLE_I2C = "1"
