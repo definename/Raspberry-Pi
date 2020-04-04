@@ -66,8 +66,10 @@ enable uart:
  - add to cmdline.txt: `console=serial0,115200 console=tty1`
 
 i2c:
+
  -ENABLE_I2C = "1"
  -IMAGE_INSTALL_append = " i2c-tools"
 
 uart:
+
  -ENABLE_UART = "1"
