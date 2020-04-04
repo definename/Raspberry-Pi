@@ -64,3 +64,10 @@ flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M 
 enable uart:
  - add to config.txt: `enable_uart=1`
  - add to cmdline.txt: `console=serial0,115200 console=tty1`
+
+i2c:
+-ENABLE_I2C = "1"
+-IMAGE_INSTALL_append = " i2c-tools"
+
+uart:
+-ENABLE_UART = "1"
