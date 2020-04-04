@@ -68,7 +68,7 @@ rpi machine:
 MACHINE = "raspberrypi3"
 ```
 
-rpi sdi-mage:
+rpi sd image to flash with dd:
 ```
 IMAGE_FSTYPES += "rpi-sdimg"
 ```
