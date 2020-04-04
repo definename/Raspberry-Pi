@@ -61,10 +61,7 @@ build `bitbake core-image-base`
 
 flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M conv=fsync`
 
-enable uart:
- - add to config.txt: `enable_uart=1`
- - add to cmdline.txt: `console=serial0,115200 console=tty1`
-
+---
 i2c:
 ```
 ENABLE_I2C = "1"
@@ -77,8 +74,8 @@ ENABLE_UART = "1"
 ```
 
 uart manually:
-> add to config.txt: `enable_uart=1`
-> add to cmdline.txt: `console=serial0,115200 console=tty1`
+- add to config.txt: `enable_uart=1`
+- add to cmdline.txt: `console=serial0,115200 console=tty1`
 
 vim:
 ```
