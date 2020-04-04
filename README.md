@@ -47,6 +47,8 @@ Unable to type on UART console:
 - [yocto](https://www.yoctoproject.org/)
 - [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index.html)
 
+---
+
 clone [yocto](https://www.yoctoproject.org/software-overview/downloads/)
 
 build `bitbake core-image-minimal`
