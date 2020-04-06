@@ -46,6 +46,7 @@ Unable to type on UART console:
 
 - [yocto](https://www.yoctoproject.org/)
 - [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index.html)
+- test [meta-olehk](https://github.com/definename/meta-olehk) layer
 
 ---
 
