@@ -58,6 +58,8 @@ build `bitbake core-image-base`
 
 flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M conv=fsync`
 
+NOTE: [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index.html) layer documentation
+
 ## Custom yocto layer for raspberry pi
 
 [meta-olehk](https://github.com/definename/meta-olehk) layer
