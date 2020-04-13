@@ -44,11 +44,11 @@ Unable to type on UART console:
 
 ## Build yocto with meta-raspberry layer
 
-clone [yocto](https://www.yoctoproject.org/software-overview/downloads/)
+clone [yoctoproject](https://www.yoctoproject.org/software-overview/downloads/) sources
 
 build `bitbake core-image-minimal`
 
-add [meta-raspberry](http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/) layer
+clone [meta-raspberry](http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/) layer source into poky
 
 modify build/conf/local.conf:
  - set machine type: `MACHINE = "raspberrypi3"`
