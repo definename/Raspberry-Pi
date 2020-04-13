@@ -48,7 +48,7 @@ clone [yoctoproject](https://www.yoctoproject.org/software-overview/downloads/) 
 
 build `bitbake core-image-minimal`
 
-clone [meta-raspberry](http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/) layer source into poky
+clone [meta-raspberry](http://layers.openembedded.org/layerindex/branch/master/layer/meta-raspberrypi/) layer sources
 
 modify build/conf/local.conf:
  - set machine type: `MACHINE = "raspberrypi3"`
