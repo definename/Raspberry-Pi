@@ -46,9 +46,8 @@ Unable to type on UART console:
 
 - [yocto](https://www.yoctoproject.org/)
 - [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index.html)
-- test [meta-olehk](https://github.com/definename/meta-olehk) layer
 
----
+## Build yocto with meta-raspberry layer
 
 clone [yocto](https://www.yoctoproject.org/software-overview/downloads/)
 
@@ -64,36 +63,6 @@ build `bitbake core-image-base`
 
 flash: `sudo dd if=core-image-base-raspberrypi3.rpi-sdimg of=/dev/mmcblk0 bs=1M conv=fsync`
 
---- 
+## Custom yocto layer for raspberry pi
 
-rpi machine: 
-```
-MACHINE = "raspberrypi3"
-```
-
-rpi sd image to flash with dd:
-```
-IMAGE_FSTYPES += "rpi-sdimg"
-```
-
-i2c:
-```
-ENABLE_I2C = "1"
-IMAGE_INSTALL_append = " i2c-tools"
-```
-
-uart:
-```
-ENABLE_UART = "1"
-```
-
-uart manually:
-- add to config.txt: `enable_uart=1`
-- add to cmdline.txt: `console=serial0,115200 console=tty1`
-
-vim:
-```
-IMAGE_INSTALL_append = " vim"
-```
-
----
+[meta-olehk](https://github.com/definename/meta-olehk) layer
