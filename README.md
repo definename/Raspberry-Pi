@@ -63,3 +63,11 @@ NOTE: [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index
 ## Custom yocto layer for raspberry pi
 
 [meta-olehk](https://github.com/definename/meta-olehk) layer
+
+## Run & Pen header
+
+The `PEN` header is for Power enable. When this pin is connected to ground, the Pi goes into its lowest possible power state. It is effectively just running the red LED at this point. Removing this ground connection causes the pull-up resistor on-board to pull this enable pin HIGH, giving the board power again. This could be attached to a low-power microcontroller if you needed a remote wake-up for instance.
+
+The `RUN` header is similar, but for the CPU only. Connecting this to ground stops the CPU from running, but the Pi board still has power. This is what you could use as a “reset switch”.
+
+[howto1](https://www.raspberrypi.org/forums/viewtopic.php?t=228605), [howto2](https://www.raspberrypi.org/forums/viewtopic.php?t=228605)
