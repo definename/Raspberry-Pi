@@ -47,7 +47,7 @@ NOTE: [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index
 
 GPIO pin 6(GND),8(TX),10(RX)
 
-[HowTo](https://elinux.org/RPi_Serial_Connection)
+[howto](https://elinux.org/RPi_Serial_Connection)
 
 **Raspbian Garbage on UART console**
 
@@ -58,7 +58,7 @@ dtoverlay=pi3-miniuart-bt
 ```
 restart board
 
-[why1](https://openenergymonitor.org/forum-archive/node/12311.html), [why2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
+[howto1](https://openenergymonitor.org/forum-archive/node/12311.html), [howto2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
 **Raspbian unable to type on UART console**
 
@@ -69,3 +69,5 @@ Try to use non usb power supply
 The `PEN` header is for Power enable. When this pin is connected to ground (e.g. `GPIO pin 14`), the Pi goes into its lowest possible power state. It is effectively just running the red LED at this point. Removing this ground connection causes the pull-up resistor on-board to pull this enable pin HIGH, giving the board power again. This could be attached to a low-power microcontroller if you needed a remote wake-up for instance.
 
 The `RUN` header is similar, but for the CPU only. Connecting this to ground (e.g. `GPIO pin 14`) stops the CPU from running, but the Pi board still has power. This is what you could use as a “reset switch”.
+
+[howto](https://www.raspberrypi.org/forums/viewtopic.php?t=228605)
