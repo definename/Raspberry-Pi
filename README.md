@@ -2,15 +2,8 @@
 
 [Raspberrypi_cookbook_ed2](https://github.com/simonmonk/raspberrypi_cookbook_ed2) source code
 
-## Raspberry shop:
-
-[Adafruit](https://www.adafruit.com/)
-
-## Linux kernel
-
-[kernelnewbies](https://kernelnewbies.org/)
-
 ## Raspberry documentation:
+
 Getting [started](https://projects.raspberrypi.org/en/pathways/getting-started-with-raspberry-pi) with Raspberry Pi
 
 Official [documentation](https://www.raspberrypi.org/documentation/)
@@ -49,7 +42,7 @@ GPIO pin 6(GND),8(TX),10(RX)
 
 [howto](https://elinux.org/RPi_Serial_Connection)
 
-**Raspbian Garbage on UART console**
+**Raspbian garbage on UART console**
 
 To the end of file: /boot/config.txt add:
 ```
