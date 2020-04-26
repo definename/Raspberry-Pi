@@ -47,9 +47,9 @@ NOTE: [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index
 
 GPIO pin 6(GND),8(TX),10(RX)
 
-- [uart howto](https://elinux.org/RPi_Serial_Connection)
+[HowTo](https://elinux.org/RPi_Serial_Connection)
 
-===
+=
 Garbage on UART console:
 
 To the end of file: /boot/config.txt add:
@@ -61,7 +61,7 @@ restart board
 
 [why1](https://openenergymonitor.org/forum-archive/node/12311.html), [why2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
-===
+=
 Unable to type on UART console:
 
 Try to use non usb power supply
