@@ -43,13 +43,13 @@ NOTE: [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index
 
 [meta-olehk](https://github.com/definename/meta-olehk) layer
 
-## Raspbian UART:
-
-[HowTo](https://elinux.org/RPi_Serial_Connection)
+## UART:
 
 GPIO pin 6(GND),8(TX),10(RX)
 
-**Garbage on UART console**
+[HowTo](https://elinux.org/RPi_Serial_Connection)
+
+**Raspbian Garbage on UART console**
 
 To the end of file: /boot/config.txt add:
 ```
@@ -60,7 +60,7 @@ restart board
 
 [why1](https://openenergymonitor.org/forum-archive/node/12311.html), [why2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
 
-**Unable to type on UART console**
+**Raspbian unable to type on UART console**
 
 Try to use non usb power supply
 
