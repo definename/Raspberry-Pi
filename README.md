@@ -21,27 +21,6 @@ For more details on the advanced capabilities of the [GPIO pins](https://pinout.
 
 `sudo raspi-config` - interface to control ssh, user passwd etc. 
 
-## Raspbian uart:
-
-- [uart howto](https://elinux.org/RPi_Serial_Connection)
-
-Garbage on UART console:
-
-- To the end of file: /boot/config.txt add:
-```
-dtoverlay=pi3-disable-bt
-dtoverlay=pi3-miniuart-bt
-```
-- restart
-
-NOTE:
-[1](https://openenergymonitor.org/forum-archive/node/12311.html),
-[2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
-
-Unable to type on UART console:
-
-- Try to use non usb power supply
-
 ## Build yocto with meta-raspberry layer
 
 clone [yoctoproject](https://www.yoctoproject.org/software-overview/downloads/) sources
@@ -64,7 +43,28 @@ NOTE: [meta-raspberrypi](https://meta-raspberrypi.readthedocs.io/en/latest/index
 
 [meta-olehk](https://github.com/definename/meta-olehk) layer
 
-## Run & Pen header
+## Raspbian UART:
+
+GPIO pin 6(GND),8(TX),10(RX)
+
+- [uart howto](https://elinux.org/RPi_Serial_Connection)
+
+### Garbage on UART console:
+
+- To the end of file: /boot/config.txt add:
+```
+dtoverlay=pi3-disable-bt
+dtoverlay=pi3-miniuart-bt
+```
+- restart
+
+[why1](https://openenergymonitor.org/forum-archive/node/12311.html), [why2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
+
+### Unable to type on UART console:
+
+- Try to use non usb power supply
+
+## RUN & PEN header
 
 The `PEN` header is for Power enable. When this pin is connected to ground (e.g. `GPIO pin 14`), the Pi goes into its lowest possible power state. It is effectively just running the red LED at this point. Removing this ground connection causes the pull-up resistor on-board to pull this enable pin HIGH, giving the board power again. This could be attached to a low-power microcontroller if you needed a remote wake-up for instance.
 
