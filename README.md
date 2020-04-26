@@ -49,20 +49,22 @@ GPIO pin 6(GND),8(TX),10(RX)
 
 - [uart howto](https://elinux.org/RPi_Serial_Connection)
 
-### Garbage on UART console:
+HowTo
+---
+Garbage on UART console:
 
-- To the end of file: /boot/config.txt add:
+To the end of file: /boot/config.txt add:
 ```
 dtoverlay=pi3-disable-bt
 dtoverlay=pi3-miniuart-bt
 ```
-- restart
+restart board
 
 [why1](https://openenergymonitor.org/forum-archive/node/12311.html), [why2](https://raspberrypi.stackexchange.com/questions/45007/garbage-on-raspberry-pi-console)
+---
+Unable to type on UART console:
 
-### Unable to type on UART console:
-
-- Try to use non usb power supply
+Try to use non usb power supply
 
 ## RUN & PEN header
 
