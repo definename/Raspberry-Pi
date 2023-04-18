@@ -64,3 +64,7 @@ The `PEN` header is for Power enable. When this pin is connected to ground (e.g.
 The `RUN` header is similar, but for the CPU only. Connecting this to ground (e.g. `GPIO pin 14`) stops the CPU from running, but the Pi board still has power. This is what you could use as a “reset switch”.
 
 [howto](https://www.raspberrypi.org/forums/viewtopic.php?t=228605)
+
+## DTC
+
+Tutorial: http://xillybus.com/tutorials/device-tree-zynq-1
